@@ -17,7 +17,7 @@ class RPS:
             print('Thanks for playing!')
             sys.exit()
 
-        if user_move not in self.valid_moves:
+        elif user_move not in self.valid_moves:
             print('Invalid move. Please respond with either Rock, Paper, or Scissors.')
             return
 
